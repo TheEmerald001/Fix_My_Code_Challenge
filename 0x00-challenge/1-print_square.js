@@ -14,7 +14,7 @@ if (process.argv.length <= 2) {
     process.exit(1)
 }
 //The correction made is that the size is the square is at index 1 of the argument vector
-size = parseInt(process.argv[1])
+size = parseInt(process.argv[2], 10)
 
 for (let i = 0 ; i < size ; i ++) {
     for (let j = 0 ; j < size ; j ++) {
